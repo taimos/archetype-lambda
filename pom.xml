@@ -6,7 +6,7 @@
         <version>5</version>
     </parent>
     <artifactId>archetype-lambda</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
     <name>Archetype for AWS lambda handler</name>
     <description>Maven archetype for an AWS lambda function written in Java</description>
@@ -15,7 +15,7 @@
         <connection>scm:git:git@github.com:taimos/archetype-lambda.git</connection>
         <developerConnection>scm:git:git@github.com:taimos/archetype-lambda.git</developerConnection>
         <url>scm:git:git@github.com:taimos/archetype-lambda.git</url>
-        <tag>v1.0</tag>
+        <tag>HEAD</tag>
     </scm>
     <issueManagement>
         <system>GitHub</system>
