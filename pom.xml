@@ -1,36 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>de.taimos</groupId>
+    <parent>
+        <groupId>de.taimos</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>5</version>
+    </parent>
     <artifactId>archetype-lambda</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
     <name>Archetype for AWS lambda handler</name>
     <description>Maven archetype for an AWS lambda function written in Java</description>
     <inceptionYear>2016</inceptionYear>
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-            <comments>A business-friendly OSS license</comments>
-        </license>
-    </licenses>
-    <developers>
-        <developer>
-            <id>hoegertn</id>
-            <name>Thorsten Hoeger</name>
-            <email>thorsten.hoeger@taimos.de</email>
-            <organization>Taimos GmbH</organization>
-            <organizationUrl>https://www.taimos.de</organizationUrl>
-            <roles>
-                <role>architect</role>
-                <role>developer</role>
-            </roles>
-            <timezone>Europe/Berlin</timezone>
-        </developer>
-    </developers>
-    <contributors>
-    </contributors>
     <scm>
         <connection>scm:git:git@github.com:taimos/archetype-lambda.git</connection>
         <developerConnection>scm:git:git@github.com:taimos/archetype-lambda.git</developerConnection>
